@@ -20,8 +20,8 @@
 
 //-------------BOM
 //http://127.0.0.1:5500/Clase%2012%20js/index.html
-//console.log(window.navigator);
-// console.log(window.location.href);
+// console.log(window.navigator);
+console.log(window.location);
 // console.log(window.history);
 // var historyObj = window.history;
 // console.log(historyObj.back());
@@ -56,11 +56,11 @@
 
 // console.log(document.body.innerHTML = '<h1>Ejemplo</h1>');
 
-const getElementById = document.getElementById('buttonTest');
+// const getElementById = document.getElementById('buttonTest');
 
-console.log(getElementById);
+// console.log(getElementById);
 
-const querySelector = document.querySelector('.divClass')
-const querySelector2 = document.querySelector('#divId')
-console.log(querySelector, querySelector2);
+// const querySelector = document.querySelector('.divClass')
+// const querySelector2 = document.querySelector('#divId')
+// console.log(querySelector, querySelector2);
 
