@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repaso Dom y Bom</title>
+</head>
+<body>
+  <h1 class="miClase" id="titulo">Repaso dom y bom</h1>
+  <h1 class="miClase" id="clon">Clonando nodo</h1>
+  <label for="miInput">Ingresa un texto</label>
+  <input onkeypress="readInputOnKeyPress(value)" type="text" name="" id="miInput">
+  <select name="select" id="seleccion">
+    <option value="value1">Value 1</option>
+    <option value="valor2" selected>Value 2</option>
+    <option value="numero 3">Value 3</option>
+  </select>
+  <div id="contenedorDiv">
+
+  </div>
+  <div id="contenidoClonado">
+
+  </div>
+  <button onclick="hacerClick()">Click aqui</button>
+  <script src="./js/app.js"></script>
+</body>
+</html>
