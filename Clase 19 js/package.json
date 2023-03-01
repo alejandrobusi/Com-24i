@@ -1,0 +1,14 @@
+{
+  "name": "clase-19-js",
+  "version": "1.0.0",
+  "description": "practica consumo de api",
+  "main": "app.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "ale",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
